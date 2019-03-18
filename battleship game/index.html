@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+    <title>Battleship Game</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="gameName">Battleship Game</h1>
+    </header>
+
+    <main>
+        <div id="outputMessage"> </div>
+
+        <canvas id="gameGrid">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+
+        <form>
+            <fieldset id="sizeBox">
+                <legend>Enter dashboard size.</legend>
+                <label for="width">Width:</label>
+                <!--Default coordinates 5x5-->
+                <input type="number" name="width" min="5" id="dashboardSize" autofocus>
+                <label for="height">Height:</label>
+                <input type="number" name="height" min="5" id="dashboardSize">
+                <input type="submit" name="submitButton" class="pointerCursor" id="submitDashboardSize">
+            </fieldset>
+            <fieldset id="targetBox">
+                <legend>Enter coordinates (row, col), e.g. "A5":</legend>
+                <input type="text" name="target" autofocus>
+                <input type="submit" name="submitTarget" class="pointerCursor" id="submitTarget">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <details>
+            <summary class="pointerCursor">Copyright 1999-2019.</summary>
+            <p>All Rights Reserved.</p>
+        </details>
+    </footer>
+
+
+    <script src="./public/js/app.js"></script>
+
+</body>
+
+</html>

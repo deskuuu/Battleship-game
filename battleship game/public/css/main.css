@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: fallback;
+    text-align: center;
+}
+
+#gameGrid{
+    width: 400px;
+    height: 400px;
+}
+
+#userTarget{
+    display: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 2em;
+}
+
+.pointerCursor:hover{
+   cursor: pointer;
+}

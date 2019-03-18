@@ -1,0 +1,27 @@
+{
+  "name": "battleship-game",
+  "version": "1.0.0",
+  "description": "one sided game",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deskuuu/Battleship-game.git"
+  },
+  "keywords": [
+    "js",
+    "node"
+  ],
+  "author": "deskuuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deskuuu/Battleship-game/issues"
+  },
+  "homepage": "https://github.com/deskuuu/Battleship-game#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
